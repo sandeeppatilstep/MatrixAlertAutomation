@@ -6,6 +6,8 @@
     "ReporterForUiPath.Activities": "[2.0.0]",
     "UiPath.Database.Activities": "[1.4.0]",
     "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.PDF.Activities": "[3.4.0]",
     "UiPath.System.Activities": "[21.4.0]",
     "UiPath.UIAutomation.Activities": "[21.4.3]"
   },
