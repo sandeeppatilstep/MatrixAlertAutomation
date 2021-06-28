@@ -3,6 +3,7 @@
   "description": "RTA Framework Template",
   "main": "Main.xaml",
   "dependencies": {
+    "Metrics_Alert_LOG_IN": "[1.0.1]",
     "ReporterForUiPath.Activities": "[2.0.0]",
     "UiPath.Database.Activities": "[1.4.0]",
     "UiPath.Excel.Activities": "[2.10.4]",
@@ -40,7 +41,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
