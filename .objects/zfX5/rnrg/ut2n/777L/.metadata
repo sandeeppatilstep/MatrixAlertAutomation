@@ -1,0 +1,14 @@
+﻿{
+  "Id": "777L78irAk2A5R0dWTMhgQ",
+  "Reference": "P9IPqY4N40eFjz_4pVOHRQ/777L78irAk2A5R0dWTMhgQ",
+  "ParentRef": "P9IPqY4N40eFjz_4pVOHRQ/ut2n8tBDmkaOZQkDD6Trmw",
+  "Name": "INPUT username",
+  "Description": "Username Input Box",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-06-29T04:41:07.2265995Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-06-29T04:41:07.2265995Z"
+}

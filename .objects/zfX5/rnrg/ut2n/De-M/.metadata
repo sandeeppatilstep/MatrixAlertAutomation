@@ -1,0 +1,14 @@
+﻿{
+  "Id": "De-MVsCpak2nmaWs3r9H4g",
+  "Reference": "P9IPqY4N40eFjz_4pVOHRQ/De-MVsCpak2nmaWs3r9H4g",
+  "ParentRef": "P9IPqY4N40eFjz_4pVOHRQ/ut2n8tBDmkaOZQkDD6Trmw",
+  "Name": "INPUT password",
+  "Description": "Password Input Box",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-06-29T04:41:07.1219493Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-06-29T04:41:07.1219493Z"
+}

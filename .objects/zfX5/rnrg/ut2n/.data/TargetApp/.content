@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="rZL7nM4o306NJvk9mg9PgA" Selector="&lt;html app='chrome.exe' title='Metrics Alert | STEP ONE STEP AHEAD' /&gt;" Url="https://www.metricsalert.com/QAMetrics/index.php/login/index" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0pnoNNZZxkE2wsnytQXv7tg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="800af3b730a379e50d79a79efca082d8.png" xmlns="">0qFVtLdgO5E-rQKEnltRDlQ</imageRef>
+</TargetApp>

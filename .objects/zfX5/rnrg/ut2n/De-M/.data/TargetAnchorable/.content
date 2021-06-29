@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.metricsalert.com/QAMetrics/index.php/login/index" ContentHash="2oyvBuKvLEaOga1mj1orKw" DesignTimeRectangle="54, 360, 448, 47" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Metrics Alert | STEP ONE STEP AHEAD' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0tPo-AZ51dEykGWpJwof2bw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="361cd11a7d733e4f6d409683478fae70.png" xmlns="">0e7Hh3Ez5CUOpCoN8IjHnqQ</imageRef>
+</TargetAnchorable>
