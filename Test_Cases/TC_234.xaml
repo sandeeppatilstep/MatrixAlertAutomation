@@ -219,7 +219,7 @@
                 <OutArgument x:TypeArguments="x:String">[TempFilePath]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String">[in_Config("TempFilePath").ToString]</InArgument>
+                <InArgument x:TypeArguments="x:String">[in_Config("Download_file_path").ToString]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
           </scg:List>
