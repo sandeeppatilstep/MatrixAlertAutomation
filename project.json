@@ -1,6 +1,6 @@
 {
-  "name": "RTA_FrameworkTemplate",
-  "description": "RTA Framework Template",
+  "name": "RTA_Matrix_Alert",
+  "description": "RTA Matrix alert test cases ",
   "main": "Main.xaml",
   "dependencies": {
     "ReporterForUiPath.Activities": "[2.0.0]",
@@ -53,6 +53,8 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
+  "publishData": {
+    "iconUrl": ".package/MetricsAlertIco.ico"
+  },
   "targetFramework": "Legacy"
 }
