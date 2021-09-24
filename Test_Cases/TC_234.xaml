@@ -15,7 +15,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>923,5739</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>923,6313</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>RAM_Transaction_Template_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="57">
@@ -131,7 +131,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="RTA_TestCase_Template" sap:VirtualizedContainerService.HintSize="933,5574" sap2010:WorkflowViewState.IdRef="Sequence_745">
+  <Sequence DisplayName="RTA_TestCase_Template" sap:VirtualizedContainerService.HintSize="933,6148" sap2010:WorkflowViewState.IdRef="Sequence_745">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ExpectedResult" />
       <Variable x:TypeArguments="s:DateTime" Name="dateTime_CaseStartTime" />
@@ -308,13 +308,13 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:FilterDataTable>
     </Sequence>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[int_RowCount]" DataTable="[dt_FilteredTestData]" DisplayName="For Each Row To Execute Each Step" sap:VirtualizedContainerService.HintSize="891,4280" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[int_RowCount]" DataTable="[dt_FilteredTestData]" DisplayName="For Each Row To Execute Each Step" sap:VirtualizedContainerService.HintSize="891,4854" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="857,4160" sap2010:WorkflowViewState.IdRef="TryCatch_14">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="857,4734" sap2010:WorkflowViewState.IdRef="TryCatch_14">
             <TryCatch.Variables>
               <Variable x:TypeArguments="x:String" Name="str_StepNumber" />
               <Variable x:TypeArguments="x:String" Name="str_Steps" />
@@ -333,7 +333,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch.Try>
-              <Sequence DisplayName="For Each Sequence" sap:VirtualizedContainerService.HintSize="819,3911" sap2010:WorkflowViewState.IdRef="Sequence_741">
+              <Sequence DisplayName="For Each Sequence" sap:VirtualizedContainerService.HintSize="819,4485" sap2010:WorkflowViewState.IdRef="Sequence_741">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="str_Expected_Result_Image" />
                   <Variable x:TypeArguments="x:String" Name="str_Expected_ResultPath" />
@@ -472,7 +472,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ra:LogMessage>
-                <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Add Steps navigation. Add a case in switch for new step where str_StepNumber contains the Step number." DisplayName="Switch" Expression="[str_StepNumber]" sap:VirtualizedContainerService.HintSize="777,2653" sap2010:WorkflowViewState.IdRef="Switch`1_5">
+                <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Add Steps navigation. Add a case in switch for new step where str_StepNumber contains the Step number." DisplayName="Switch" Expression="[str_StepNumber]" sap:VirtualizedContainerService.HintSize="777,3227" sap2010:WorkflowViewState.IdRef="Switch`1_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -480,10 +480,10 @@
                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence x:Key="Step-1" DisplayName="Navigate to Metrics  Alert URL and login" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_935">
+                  <Sequence x:Key="Step-1" DisplayName="Navigate to Metrics  Alert URL and login" sap:VirtualizedContainerService.HintSize="737,2836" sap2010:WorkflowViewState.IdRef="Sequence_935">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -671,7 +671,7 @@
                       </ui:TypeInto>
                       <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into - Password" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_16" SimulateType="True" Text="[str_Password]">
                         <ui:TypeInto.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c4f10413-3f73-498b-949f-1fbb751c5cfc" InformativeScreenshot="178968ed1a6a7877f9d98abbc10f453a" Selector="&lt;html app='chrome.exe' title='Metrics Alert | STEP ONE STEP AHEAD' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c4f10413-3f73-498b-949f-1fbb751c5cfc" InformativeScreenshot="178968ed1a6a7877f9d98abbc10f453a" Selector="[String.Format(&quot;&lt;html app='{0}' title='*' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;&quot;, BrowserAppName)]">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -845,7 +845,7 @@
                       </If>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-2" DisplayName="Click on Metrics" sap:VirtualizedContainerService.HintSize="737,1719" sap2010:WorkflowViewState.IdRef="Sequence_750">
+                  <Sequence x:Key="Step-2" DisplayName="Click on Metrics" sap:VirtualizedContainerService.HintSize="737,1688" sap2010:WorkflowViewState.IdRef="Sequence_750">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1039,7 +1039,7 @@
                       </If>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-3" DisplayName="Click On Metrics Name" sap:VirtualizedContainerService.HintSize="737,1399" sap2010:WorkflowViewState.IdRef="Sequence_755">
+                  <Sequence x:Key="Step-3" DisplayName="Click On Metrics Name" sap:VirtualizedContainerService.HintSize="737,1368" sap2010:WorkflowViewState.IdRef="Sequence_755">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Int32" Name="DisplayedRecCount" />
                       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="RatioNameDT" />
@@ -1454,7 +1454,7 @@
                       </Sequence>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-5" DisplayName="Click on Export Data Button" sap:VirtualizedContainerService.HintSize="737,1937" sap2010:WorkflowViewState.IdRef="Sequence_896">
+                  <Sequence x:Key="Step-5" DisplayName="Click on Export Data Button" sap:VirtualizedContainerService.HintSize="737,1906" sap2010:WorkflowViewState.IdRef="Sequence_896">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1645,7 +1645,7 @@
                       </If>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-6" DisplayName="Save File at specified file path" sap:VirtualizedContainerService.HintSize="737,1702" sap2010:WorkflowViewState.IdRef="Sequence_901">
+                  <Sequence x:Key="Step-6" DisplayName="Save File at specified file path" sap:VirtualizedContainerService.HintSize="737,1671" sap2010:WorkflowViewState.IdRef="Sequence_901">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1819,7 +1819,7 @@
                       </If>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-7" DisplayName="Open  file" sap:VirtualizedContainerService.HintSize="737,2262" sap2010:WorkflowViewState.IdRef="Sequence_906">
+                  <Sequence x:Key="Step-7" DisplayName="Open  file" sap:VirtualizedContainerService.HintSize="737,2231" sap2010:WorkflowViewState.IdRef="Sequence_906">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="EnableEditingYN" />
                     </Sequence.Variables>
@@ -2016,7 +2016,7 @@
                       </If>
                     </Sequence>
                   </Sequence>
-                  <Sequence x:Key="Step-8" DisplayName="Check Data in file" sap:VirtualizedContainerService.HintSize="737,2090" sap2010:WorkflowViewState.IdRef="Sequence_912">
+                  <Sequence x:Key="Step-8" DisplayName="Check Data in file" sap:VirtualizedContainerService.HintSize="737,2059" sap2010:WorkflowViewState.IdRef="Sequence_912">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="sd:DataTable" Name="MetricsDT1" />
                       <Variable x:TypeArguments="sd:DataTable" Name="OutDT" />
